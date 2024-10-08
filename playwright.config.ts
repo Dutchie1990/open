@@ -8,6 +8,7 @@ export default defineConfig({
   use: {
     trace: "on",
   },
+  globalSetup: "./setup.ts",
   projects: [
     {
       name: "chromium",
